@@ -1,0 +1,53 @@
+
+.navbar {
+
+    background-color: White;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px 40px;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.subscriptionPolicyButton {
+    padding: 20px;
+    background-color: #FF7A1A;
+    border-radius: 30px;
+    transition: 0.4s;
+    font-size: 18px;
+    border: none;
+
+}
+
+.leftNavbar {
+    color: #FF7A1A;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.centerNavbar {
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+}
+
+ a {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+a:hover{
+    color: #FF7A1A;
+}
+
+.subscriptionPolicyButton:hover{
+    background-color: #dd6f20;
+    cursor: pointer;
+    color: white;
+}
