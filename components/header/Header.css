@@ -1,6 +1,9 @@
 
 body{
    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    overflow-x: hidden;
+
 }
 
 .header{
@@ -48,4 +51,52 @@ body{
     cursor: pointer;
     border-color: white;
     
+}
+
+@media (max-width: 992px){
+
+   .divHeader{
+      padding-left: 100px;
+      padding-top: 120px;
+   }
+
+   .titleHeader{
+      font-size: 45px;
+   }
+
+   .description{
+      font-size: 24px;
+   }
+
+}
+
+@media (max-width: 600px){
+
+   .header{
+      height: 500px;
+      background-position: center;
+   }
+
+   .divHeader{
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 120px;
+   }
+
+   .titleHeader{
+      font-size: 34px;
+      line-height: 1.3;
+   }
+
+   .description{
+      font-size: 18px;
+      margin-top: 15px;
+   }
+
+   .joinUsButton{
+      margin-top: 20px;
+      width: 140px;
+      padding: 12px;
+   }
+
 }

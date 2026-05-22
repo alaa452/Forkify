@@ -1,4 +1,4 @@
-.footer{
+.footer {
    background-color: #111;
    color: white;
 
@@ -9,33 +9,54 @@
    margin-top: 100px;
 }
 
-.footerLogo p{
+.footerLogo p {
    color: #bdbdbd;
    margin-top: 10px;
 }
 
-.footerLinks{
+.footerLinks {
    display: flex;
    gap: 20px;
 }
 
-.footerLinks a{
+.footerLinks a {
    color: white;
    text-decoration: none;
    transition: 0.3s;
 }
 
-.footerLinks a:hover{
+.footerLinks a:hover {
    color: #FF7A1A;
 }
 
-.footerIcons{
+.footerIcons {
    display: flex;
    gap: 15px;
    font-size: 22px;
    cursor: pointer;
 }
 
-.footerIcons i:hover{
+.footerIcons i:hover {
    color: #FF7A1A;
+}
+
+
+@media (max-width:600px) {
+   .footer {
+      flex-direction: column;
+      padding: 10px;
+
+   }
+   .footerLogo p{
+      margin-top: 5px;
+   }
+   .footerLinks{
+      gap: 10px;
+   }
+   .footerIcons{
+      margin-top: 20px;
+   }
+   .footerLogo{
+      text-align: center;
+   }
 }

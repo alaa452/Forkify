@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter  } from "react-router-dom";
 import Home from "./components/home/Home";
 import Login from "./components/login/Login";
 import Footer from "./components/footer/Footer";
@@ -12,7 +12,7 @@ import Pasta from "./components/pasta/Pasta";
 import AboutUs from "./components/aboutUs/AboutUs"
 import SubscriptionPolicy from "./components/SubscriptionPolicy/SubscriptionPolicy";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path: "/",
         element: <MainLayout />,
